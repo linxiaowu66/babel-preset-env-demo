@@ -1,0 +1,26 @@
+{
+  "name": "front-babel",
+  "version": "0.0.1",
+  "description": "test front end babel",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel main.js module.js -d ./dist/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1"
+  }
+}

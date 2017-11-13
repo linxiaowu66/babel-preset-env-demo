@@ -1,0 +1,21 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "6.4"
+      },
+      "debug": true,
+      "useBuiltIns": true,
+      "include": [
+        "transform-es2015-shorthand-properties"
+      ]
+    }],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "transform-object-rest-spread"
+  ]
+}

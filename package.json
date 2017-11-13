@@ -1,0 +1,12 @@
+{
+  "name": "babel-preset-env-demo",
+  "version": "0.0.1",
+  "description": "test nodejs frontend babel",
+  "main": "index.js",
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

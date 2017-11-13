@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["Android >= 4.0", "ios >= 6"]
+      },
+      "debug": true,
+      "include": [
+        "transform-es2015-shorthand-properties"
+      ],
+      "useBuiltIns": true
+    }]
+  ],
+  "plugins": [
+    "array-includes",
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "transform-object-rest-spread"
+  ]
+}
