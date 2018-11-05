@@ -5,6 +5,7 @@
         "browsers": ["Android >= 4.0", "ios >= 6"]
       },
       "debug": true,
+      "modules": false,
       "include": [
         "transform-es2015-shorthand-properties"
       ],
